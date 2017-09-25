@@ -1,3 +1,0 @@
-C:/Users/Jadon/Desktop/myStuff/Wits/Honours/Semester II/Computer Vision/Assignments/A1 - Coin/dlib-19.7/dlib-19.7/tools/imglab/build/dlib_build/neon_test_build/CMakeFiles/neon_test.dir
-C:/Users/Jadon/Desktop/myStuff/Wits/Honours/Semester II/Computer Vision/Assignments/A1 - Coin/dlib-19.7/dlib-19.7/tools/imglab/build/dlib_build/neon_test_build/CMakeFiles/ALL_BUILD.dir
-C:/Users/Jadon/Desktop/myStuff/Wits/Honours/Semester II/Computer Vision/Assignments/A1 - Coin/dlib-19.7/dlib-19.7/tools/imglab/build/dlib_build/neon_test_build/CMakeFiles/ZERO_CHECK.dir
