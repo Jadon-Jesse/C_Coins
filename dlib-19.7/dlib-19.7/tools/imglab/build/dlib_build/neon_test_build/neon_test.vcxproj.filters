@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Jadon\Desktop\myStuff\Wits\Honours\Semester II\Computer Vision\Assignments\A1 - Coin\dlib-19.7\dlib-19.7\dlib\cmake_utils\test_for_neon\neon_test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Jadon\Desktop\myStuff\Wits\Honours\Semester II\Computer Vision\Assignments\A1 - Coin\dlib-19.7\dlib-19.7\dlib\cmake_utils\test_for_neon\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{EC794766-5A7C-397A-A90F-3E1FBDEF1941}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

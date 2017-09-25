@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Jadon\Desktop\myStuff\Wits\Honours\Semester II\Computer Vision\Assignments\A1 - Coin\dlib-19.7\dlib-19.7\tools\imglab\build\CMakeFiles\0add6bf2561acedc43b96158e7137538\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{3914F462-8C1B-3BA7-9A22-AF4B6C8799BD}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

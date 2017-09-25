@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{783755FB-2494-3F83-B1A7-0533B7777605}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Jadon\Desktop\myStuff\Wits\Honours\Semester II\Computer Vision\Assignments\A1 - Coin\dlib-19.7\dlib-19.7\dlib\external\libpng;C:\Users\Jadon\Desktop\myStuff\Wits\Honours\Semester II\Computer Vision\Assignments\A1 - Coin\dlib-19.7\dlib-19.7\dlib\external\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Jadon\Desktop\myStuff\Wits\Honours\Semester II\Computer Vision\Assignments\A1 - Coin\dlib-19.7\dlib-19.7\dlib\external\libpng;C:\Users\Jadon\Desktop\myStuff\Wits\Honours\Semester II\Computer Vision\Assignments\A1 - Coin\dlib-19.7\dlib-19.7\dlib\external\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Jadon\Desktop\myStuff\Wits\Honours\Semester II\Computer Vision\Assignments\A1 - Coin\dlib-19.7\dlib-19.7\dlib\external\libpng;C:\Users\Jadon\Desktop\myStuff\Wits\Honours\Semester II\Computer Vision\Assignments\A1 - Coin\dlib-19.7\dlib-19.7\dlib\external\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Jadon\Desktop\myStuff\Wits\Honours\Semester II\Computer Vision\Assignments\A1 - Coin\dlib-19.7\dlib-19.7\dlib\external\libpng;C:\Users\Jadon\Desktop\myStuff\Wits\Honours\Semester II\Computer Vision\Assignments\A1 - Coin\dlib-19.7\dlib-19.7\dlib\external\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Jadon\Desktop\myStuff\Wits\Honours\Semester II\Computer Vision\Assignments\A1 - Coin\dlib-19.7\dlib-19.7\dlib\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/Jadon/Desktop/myStuff/Wits/Honours/Semester II/Computer Vision/Assignments/A1 - Coin/dlib-19.7/dlib-19.7/dlib/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-HC:/Users/Jadon/Desktop/myStuff/Wits/Honours/Semester II/Computer Vision/Assignments/A1 - Coin/dlib-19.7/dlib-19.7/tools/imglab" "-BC:/Users/Jadon/Desktop/myStuff/Wits/Honours/Semester II/Computer Vision/Assignments/A1 - Coin/dlib-19.7/dlib-19.7/tools/imglab/build" --check-stamp-file "C:/Users/Jadon/Desktop/myStuff/Wits/Honours/Semester II/Computer Vision/Assignments/A1 - Coin/dlib-19.7/dlib-19.7/tools/imglab/build/dlib_build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/Jadon/Desktop/myStuff/Wits/Honours/Semester II/Computer Vision/Assignments/A1 - Coin/dlib-19.7/dlib-19.7/dlib/CMakeLists.txt;C:\Users\Jadon\Desktop\myStuff\Wits\Honours\Semester II\Computer Vision\Assignments\A1 - Coin\dlib-19.7\dlib-19.7\dlib\CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.9\Modules\GNUInstallDirs.cmake;C:\Users\Jadon\Desktop\myStuff\Wits\Honours\Semester II\Computer Vision\Assignments\A1 - Coin\dlib-19.7\dlib-19.7\dlib\cmake_utils\release_build_by_default;C:\Users\Jadon\Desktop\myStuff\Wits\Honours\Semester II\Computer Vision\Assignments\A1 - Coin\dlib-19.7\dlib-19.7\dlib\cmake_utils\use_cpp_11.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindGIF.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPNG.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindZLIB.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\Users\Jadon\Desktop\myStuff\Wits\Honours\Semester II\Computer Vision\Assignments\A1 - Coin\dlib-19.7\dlib-19.7\dlib\cmake_utils\check_if_neon_available.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindJPEG.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\Users\Jadon\Desktop\myStuff\Wits\Honours\Semester II\Computer Vision\Assignments\A1 - Coin\dlib-19.7\dlib-19.7\dlib\cmake_utils\cmake_find_blas.txt;C:\Program Files\CMake\share\cmake-3.9\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindCUDA.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindCUDA\select_compute_arch.cmake;C:\Users\Jadon\Desktop\myStuff\Wits\Honours\Semester II\Computer Vision\Assignments\A1 - Coin\dlib-19.7\dlib-19.7\dlib\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Jadon\Desktop\myStuff\Wits\Honours\Semester II\Computer Vision\Assignments\A1 - Coin\dlib-19.7\dlib-19.7\tools\imglab\build\dlib_build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/Jadon/Desktop/myStuff/Wits/Honours/Semester II/Computer Vision/Assignments/A1 - Coin/dlib-19.7/dlib-19.7/dlib/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-HC:/Users/Jadon/Desktop/myStuff/Wits/Honours/Semester II/Computer Vision/Assignments/A1 - Coin/dlib-19.7/dlib-19.7/tools/imglab" "-BC:/Users/Jadon/Desktop/myStuff/Wits/Honours/Semester II/Computer Vision/Assignments/A1 - Coin/dlib-19.7/dlib-19.7/tools/imglab/build" --check-stamp-file "C:/Users/Jadon/Desktop/myStuff/Wits/Honours/Semester II/Computer Vision/Assignments/A1 - Coin/dlib-19.7/dlib-19.7/tools/imglab/build/dlib_build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/Jadon/Desktop/myStuff/Wits/Honours/Semester II/Computer Vision/Assignments/A1 - Coin/dlib-19.7/dlib-19.7/dlib/CMakeLists.txt;C:\Users\Jadon\Desktop\myStuff\Wits\Honours\Semester II\Computer Vision\Assignments\A1 - Coin\dlib-19.7\dlib-19.7\dlib\CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.9\Modules\GNUInstallDirs.cmake;C:\Users\Jadon\Desktop\myStuff\Wits\Honours\Semester II\Computer Vision\Assignments\A1 - Coin\dlib-19.7\dlib-19.7\dlib\cmake_utils\release_build_by_default;C:\Users\Jadon\Desktop\myStuff\Wits\Honours\Semester II\Computer Vision\Assignments\A1 - Coin\dlib-19.7\dlib-19.7\dlib\cmake_utils\use_cpp_11.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindGIF.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPNG.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindZLIB.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\Users\Jadon\Desktop\myStuff\Wits\Honours\Semester II\Computer Vision\Assignments\A1 - Coin\dlib-19.7\dlib-19.7\dlib\cmake_utils\check_if_neon_available.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindJPEG.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\Users\Jadon\Desktop\myStuff\Wits\Honours\Semester II\Computer Vision\Assignments\A1 - Coin\dlib-19.7\dlib-19.7\dlib\cmake_utils\cmake_find_blas.txt;C:\Program Files\CMake\share\cmake-3.9\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindCUDA.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindCUDA\select_compute_arch.cmake;C:\Users\Jadon\Desktop\myStuff\Wits\Honours\Semester II\Computer Vision\Assignments\A1 - Coin\dlib-19.7\dlib-19.7\dlib\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Jadon\Desktop\myStuff\Wits\Honours\Semester II\Computer Vision\Assignments\A1 - Coin\dlib-19.7\dlib-19.7\tools\imglab\build\dlib_build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/Jadon/Desktop/myStuff/Wits/Honours/Semester II/Computer Vision/Assignments/A1 - Coin/dlib-19.7/dlib-19.7/dlib/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-HC:/Users/Jadon/Desktop/myStuff/Wits/Honours/Semester II/Computer Vision/Assignments/A1 - Coin/dlib-19.7/dlib-19.7/tools/imglab" "-BC:/Users/Jadon/Desktop/myStuff/Wits/Honours/Semester II/Computer Vision/Assignments/A1 - Coin/dlib-19.7/dlib-19.7/tools/imglab/build" --check-stamp-file "C:/Users/Jadon/Desktop/myStuff/Wits/Honours/Semester II/Computer Vision/Assignments/A1 - Coin/dlib-19.7/dlib-19.7/tools/imglab/build/dlib_build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/Jadon/Desktop/myStuff/Wits/Honours/Semester II/Computer Vision/Assignments/A1 - Coin/dlib-19.7/dlib-19.7/dlib/CMakeLists.txt;C:\Users\Jadon\Desktop\myStuff\Wits\Honours\Semester II\Computer Vision\Assignments\A1 - Coin\dlib-19.7\dlib-19.7\dlib\CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.9\Modules\GNUInstallDirs.cmake;C:\Users\Jadon\Desktop\myStuff\Wits\Honours\Semester II\Computer Vision\Assignments\A1 - Coin\dlib-19.7\dlib-19.7\dlib\cmake_utils\release_build_by_default;C:\Users\Jadon\Desktop\myStuff\Wits\Honours\Semester II\Computer Vision\Assignments\A1 - Coin\dlib-19.7\dlib-19.7\dlib\cmake_utils\use_cpp_11.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindGIF.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPNG.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindZLIB.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\Users\Jadon\Desktop\myStuff\Wits\Honours\Semester II\Computer Vision\Assignments\A1 - Coin\dlib-19.7\dlib-19.7\dlib\cmake_utils\check_if_neon_available.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindJPEG.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\Users\Jadon\Desktop\myStuff\Wits\Honours\Semester II\Computer Vision\Assignments\A1 - Coin\dlib-19.7\dlib-19.7\dlib\cmake_utils\cmake_find_blas.txt;C:\Program Files\CMake\share\cmake-3.9\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindCUDA.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindCUDA\select_compute_arch.cmake;C:\Users\Jadon\Desktop\myStuff\Wits\Honours\Semester II\Computer Vision\Assignments\A1 - Coin\dlib-19.7\dlib-19.7\dlib\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Jadon\Desktop\myStuff\Wits\Honours\Semester II\Computer Vision\Assignments\A1 - Coin\dlib-19.7\dlib-19.7\tools\imglab\build\dlib_build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/Jadon/Desktop/myStuff/Wits/Honours/Semester II/Computer Vision/Assignments/A1 - Coin/dlib-19.7/dlib-19.7/dlib/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-HC:/Users/Jadon/Desktop/myStuff/Wits/Honours/Semester II/Computer Vision/Assignments/A1 - Coin/dlib-19.7/dlib-19.7/tools/imglab" "-BC:/Users/Jadon/Desktop/myStuff/Wits/Honours/Semester II/Computer Vision/Assignments/A1 - Coin/dlib-19.7/dlib-19.7/tools/imglab/build" --check-stamp-file "C:/Users/Jadon/Desktop/myStuff/Wits/Honours/Semester II/Computer Vision/Assignments/A1 - Coin/dlib-19.7/dlib-19.7/tools/imglab/build/dlib_build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/Jadon/Desktop/myStuff/Wits/Honours/Semester II/Computer Vision/Assignments/A1 - Coin/dlib-19.7/dlib-19.7/dlib/CMakeLists.txt;C:\Users\Jadon\Desktop\myStuff\Wits\Honours\Semester II\Computer Vision\Assignments\A1 - Coin\dlib-19.7\dlib-19.7\dlib\CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.9\Modules\GNUInstallDirs.cmake;C:\Users\Jadon\Desktop\myStuff\Wits\Honours\Semester II\Computer Vision\Assignments\A1 - Coin\dlib-19.7\dlib-19.7\dlib\cmake_utils\release_build_by_default;C:\Users\Jadon\Desktop\myStuff\Wits\Honours\Semester II\Computer Vision\Assignments\A1 - Coin\dlib-19.7\dlib-19.7\dlib\cmake_utils\use_cpp_11.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindGIF.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPNG.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindZLIB.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\Users\Jadon\Desktop\myStuff\Wits\Honours\Semester II\Computer Vision\Assignments\A1 - Coin\dlib-19.7\dlib-19.7\dlib\cmake_utils\check_if_neon_available.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindJPEG.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\Users\Jadon\Desktop\myStuff\Wits\Honours\Semester II\Computer Vision\Assignments\A1 - Coin\dlib-19.7\dlib-19.7\dlib\cmake_utils\cmake_find_blas.txt;C:\Program Files\CMake\share\cmake-3.9\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindCUDA.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindCUDA\select_compute_arch.cmake;C:\Users\Jadon\Desktop\myStuff\Wits\Honours\Semester II\Computer Vision\Assignments\A1 - Coin\dlib-19.7\dlib-19.7\dlib\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Jadon\Desktop\myStuff\Wits\Honours\Semester II\Computer Vision\Assignments\A1 - Coin\dlib-19.7\dlib-19.7\tools\imglab\build\dlib_build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\Jadon\Desktop\myStuff\Wits\Honours\Semester II\Computer Vision\Assignments\A1 - Coin\dlib-19.7\dlib-19.7\tools\imglab\build\ZERO_CHECK.vcxproj">
+      <Project>{07B34265-8766-3C80-B6AC-5306ED0F0662}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Jadon\Desktop\myStuff\Wits\Honours\Semester II\Computer Vision\Assignments\A1 - Coin\dlib-19.7\dlib-19.7\tools\imglab\build\dlib_build\dlib.vcxproj">
+      <Project>{49258E3B-7B39-33D2-818C-E1FE0435B56E}</Project>
+      <Name>dlib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
