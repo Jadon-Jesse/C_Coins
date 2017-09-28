@@ -51,12 +51,12 @@ def copy_rename(src_file, dst_dir,old_name, new_file_name):
         os.rename(old_name, new_file_name)
 
 def help_out_sortcoins():
-    dir_tar = "../data/Generated/coins/"
-    dir_src = "../data/Generated/imgs/"
+    dir_tar = "../data/Generated/TrainClassifier/"
+    dir_src = "../data/Generated/detected/"
     coin_dirs = ["10C/","20C/","50C/","1R/", "2R/", "5R/", "Huh/"]
     coin_names = ["10C_","20C_","50C_","1R_", "2R_", "5R_", "Huh_"]
     #for each img folder
-    for i in np.arange(105):
+    for i in np.arange(178):
         #go into each subfolder
         for j in np.arange(len(coin_dirs)):
             folder_i = dir_src+"img"+str(i)+"/"+coin_dirs[j]+"*"
@@ -73,9 +73,9 @@ def help_out_sortcoins():
                 copy_rename(coins_i[k], dst_i,old_dst_name, new_dst_name)
             
 def help_out_folders():
-    directory = "../data/Generated/imgs/"
+    directory = "../data/Generated/detected/"
     coin_dirs = ["10C/","20C/","50C/","1R/", "2R/", "5R/", "Huh/"]
-    for i in np.arange(105):
+    for i in np.arange(178):
         #create each sub dir
         for j in np.arange(len(coin_dirs)):
             try:
@@ -161,27 +161,10 @@ def process_img(image_name):
 if __name__ == "__main__":
     #the_mask()
     #help_out_folders()
-    #help_out_sortcoins()
-    test_img = "test/t15.jpg"
+    help_out_sortcoins()
+    #test_img = "test/t15.jpg"
     #img = cv2.imread(test_img)
     #g =process_img(test_img)
     #plt.imshow(g)
-    img = cv2.imread(test_img)
-    img_gry = cv2.cvtColor(img, cv2.COLOR_RGB2GRAY)
-
-    adaThresh = cv2.adaptiveThreshold(img[:,:,2], 255, cv2.ADAPTIVE_THRESH_GAUSSIAN_C, cv2.THRESH_BINARY, 115, 1)
-    plt.imshow(adaThresh, cmap='gray')
-    _, contours,hierarchy = cv2.findContours(adaThresh,cv2.RETR_LIST,cv2.CHAIN_APPROX_SIMPLE) 
-    cnt = contours
-    big_contour = []
-    max = 0
-    for i in cnt:
-       area = cv2.contourArea(i) #--- find the contour having biggest area ---
-       if(area > max):
-          max = area
-          big_contour = i 
-    
-    final = cv2.drawContours(img, big_contour, -1, (0,255,0), 3)
-    plt.imshow( final)
-    
+ 
     

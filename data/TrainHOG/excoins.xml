@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<?xml-stylesheet type='text/xsl' href='image_metadata_stylesheet.xsl'?>
+<dataset>
+<name>imglab dataset</name>
+<comment>Created by imglab tool.</comment>
+<images>
+  <image file='ExData\IMG_8170.JPG'>
+    <box top='1098' left='1572' width='403' height='406'/>
+  </image>
+  <image file='ExData\IMG_8171.JPG'>
+    <box top='1332' left='114' width='277' height='259'/>
+    <box top='1062' left='1620' width='349' height='355'/>
+    <box top='1095' left='2052' width='313' height='313'/>
+    <box top='1059' left='2427' width='307' height='310'/>
+    <box top='1566' left='1635' width='277' height='277'/>
+    <box top='1644' left='2031' width='358' height='367'/>
+    <box top='1446' left='2481' width='280' height='271'/>
+    <box top='1446' left='2823' width='310' height='307'/>
+  </image>
+  <image file='ExData\IMG_8172.JPG'>
+    <box top='540' left='1059' width='310' height='316'/>
+    <box top='600' left='1371' width='274' height='274'/>
+    <box top='885' left='1278' width='250' height='244'/>
+    <box top='855' left='1671' width='298' height='292'/>
+    <box top='771' left='2004' width='289' height='280'/>
+    <box top='1416' left='1683' width='340' height='349'/>
+    <box top='1332' left='2064' width='271' height='250'/>
+    <box top='1185' left='1446' width='259' height='262'/>
+  </image>
+  <image file='ExData\IMG_8173.JPG'>
+    <box top='1182' left='1359' width='232' height='247'/>
+    <box top='834' left='1743' width='295' height='277'/>
+    <box top='960' left='1497' width='328' height='319'/>
+    <box top='1089' left='1806' width='295' height='259'/>
+    <box top='1326' left='1779' width='292' height='277'/>
+    <box top='1398' left='2019' width='265' height='265'/>
+    <box top='1254' left='1557' width='238' height='232'/>
+    <box top='1461' left='1524' width='340' height='325'/>
+  </image>
+  <image file='ExData\IMG_8174.JPG'>
+    <box top='573' left='696' width='250' height='247'/>
+    <box top='462' left='990' width='289' height='274'/>
+    <box top='351' left='1554' width='331' height='310'/>
+    <box top='489' left='1980' width='286' height='274'/>
+    <box top='915' left='1845' width='256' height='247'/>
+    <box top='1386' left='2013' width='271' height='274'/>
+  </image>
+  <image file='ExData\unnamed (1).jpg'>
+    <box top='777' left='1359' width='334' height='340'/>
+    <box top='681' left='2037' width='322' height='322'/>
+    <box top='966' left='2004' width='271' height='283'/>
+    <box top='1356' left='921' width='397' height='397'/>
+    <box top='2055' left='507' width='472' height='463'/>
+    <box top='2016' left='1188' width='448' height='466'/>
+    <box top='2157' left='1947' width='337' height='340'/>
+  </image>
+  <image file='ExData\unnamed (2).jpg'>
+    <box top='549' left='2115' width='313' height='328'/>
+    <box top='1008' left='1269' width='379' height='391'/>
+    <box top='1422' left='477' width='349' height='352'/>
+    <box top='2088' left='414' width='475' height='469'/>
+    <box top='2055' left='1104' width='433' height='451'/>
+    <box top='2193' left='1839' width='334' height='322'/>
+    <box top='2211' left='2361' width='268' height='283'/>
+  </image>
+  <image file='ExData\unnamed (3).jpg'>
+    <box top='1110' left='198' width='355' height='334'/>
+    <box top='1092' left='1053' width='370' height='373'/>
+    <box top='660' left='1860' width='304' height='313'/>
+    <box top='1452' left='1431' width='412' height='436'/>
+    <box top='2226' left='561' width='445' height='439'/>
+    <box top='2244' left='2106' width='253' height='277'/>
+    <box top='2655' left='1287' width='316' height='328'/>
+  </image>
+  <image file='ExData\unnamed (4).jpg'>
+    <box top='3342' left='921' width='286' height='286'/>
+    <box top='1581' left='573' width='412' height='400'/>
+    <box top='1179' left='1635' width='307' height='322'/>
+    <box top='1617' left='2235' width='250' height='256'/>
+    <box top='1554' left='1683' width='406' height='430'/>
+    <box top='1875' left='1899' width='382' height='418'/>
+  </image>
+  <image file='ExData\unnamed (5).jpg'>
+    <box top='2910' left='597' width='283' height='274'/>
+    <box top='1491' left='1884' width='235' height='259'/>
+    <box top='1449' left='1527' width='382' height='421'/>
+    <box top='1506' left='1065' width='397' height='430'/>
+    <box top='1674' left='804' width='310' height='313'/>
+    <box top='1341' left='657' width='385' height='388'/>
+    <box top='1176' left='1017' width='352' height='376'/>
+    <box top='1314' left='1323' width='283' height='301'/>
+    <box top='939' left='660' width='430' height='439'/>
+    <box top='891' left='1026' width='301' height='334'/>
+    <box top='993' left='1299' width='349' height='355'/>
+  </image>
+  <image file='ExData\unnamed (6).jpg'>
+    <box top='1659' left='336' width='421' height='415'/>
+    <box top='1485' left='1254' width='415' height='433'/>
+    <box top='1845' left='990' width='442' height='412'/>
+    <box top='2235' left='963' width='343' height='328'/>
+    <box top='3072' left='993' width='292' height='286'/>
+    <box top='1251' left='2268' width='286' height='292'/>
+    <box top='1500' left='2310' width='373' height='415'/>
+    <box top='1740' left='2598' width='235' height='253'/>
+    <box top='564' left='1299' width='382' height='397'/>
+    <box top='1065' left='1746' width='307' height='340'/>
+    <box top='1077' left='2016' width='325' height='367'/>
+  </image>
+  <image file='ExData\unnamed.jpg'>
+    <box top='1155' left='981' width='397' height='394'/>
+    <box top='1005' left='1785' width='382' height='394'/>
+    <box top='1347' left='1740' width='328' height='340'/>
+    <box top='1839' left='453' width='493' height='463'/>
+    <box top='2601' left='771' width='550' height='544'/>
+    <box top='2754' left='1686' width='406' height='382'/>
+  </image>
+</images>
+</dataset>
