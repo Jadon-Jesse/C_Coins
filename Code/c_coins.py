@@ -156,15 +156,76 @@ def process_img(image_name):
     #save_using_bb(1,img,mask)
     
     return mask
-    
 
+
+#resize and cobine training imgs for the classifier
+def resize_and_combine():
+    dirs = ["../data/Generated/coins/", "../data/Generated/TrainClassifier/"] 
+    dir_tar =["../data/Generated/Resized/"]
+    coin_dirs = ["10C/","20C/","50C/","1R/", "2R/", "5R/", "Huh/"]
+    coin_names=["10C_","20C_","50C_","1R_", "2R_", "5R_", "Huh_"]
+    
+    #for each dir that has imgs we want
+    for n in np.arange(len(dirs)):
+        #go through each subdir
+        
+        for i in np.arange(len(coin_dirs)):
+            #copy and resize each coin into the new dir
+            
+            f = dirs[n]+coin_dirs[i]+"*.jpg"
+            #get a list of all the files
+            files = glob.glob(f)
+            #for each file copy and rezise
+            for j in np.arange(len(files)):
+                img = cv2.imread(files[j])
+                resized_image = cv2.resize(img, (100, 100))
+                new_path = dir_tar[0]+coin_dirs[i] +coin_names[i]+ str(n)+"_"+str(j)+".jpg"
+                cv2.imwrite(new_path, resized_image)
+                
+                
+#create more training images by augmenting
+def augment():
+    from keras.preprocessing.image import ImageDataGenerator, array_to_img, img_to_array, load_img
+    datagen = ImageDataGenerator(
+        rotation_range=359,
+        width_shift_range=0.2,
+        height_shift_range=0.2,
+        shear_range=0.2,
+        zoom_range=0.2,
+        channel_shift_range=0.2,
+        fill_mode='nearest')
+
+    dir_tar ="../data/Generated/Resized/"
+    coin_dirs = ["10C/","20C/","50C/","1R/", "2R/", "5R/"]
+    #We want each coin to have around 2000 imgs
+    coin_multip=[9, 5,3,50, 8, 4]
+    
+    for i in np.arange(len(coin_dirs)):
+        fold=foldall = dir_tar+coin_dirs[i]
+        foldall = dir_tar+coin_dirs[i]+"*.jpg"
+        files = glob.glob(foldall)
+        for f in np.arange(len(files)):
+            
+            img = load_img(files[f])  # this is a PIL image
+            x = img_to_array(img)  # this is a Numpy array with shape (3, 150, 150)
+            x = x.reshape((1,) + x.shape)  # this is a Numpy array with shape (1, 3, 150, 150)
+            
+            # the .flow() command below generates batches of randomly transformed images
+            # and saves the results to the `preview/` directory
+            n = 0
+            pre = "aug"+str(f)
+            for batch in datagen.flow(x, batch_size=1, save_to_dir=fold, save_prefix=pre, save_format="jpg"):
+                n += 1
+                if n >= int(coin_multip[i]):
+                    break  # otherwise the generator would loop indefinitely
+            
 if __name__ == "__main__":
     #the_mask()
     #help_out_folders()
-    help_out_sortcoins()
+    #help_out_sortcoins()
     #test_img = "test/t15.jpg"
     #img = cv2.imread(test_img)
     #g =process_img(test_img)
     #plt.imshow(g)
- 
-    
+    #resize_and_combine()
+    augment()
